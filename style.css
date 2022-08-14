@@ -1,0 +1,266 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+
+    background-color: #B1D8B7;
+    border-radius: 40px;
+    border: solid 1px #B1D8B7;
+
+}
+
+.header a {
+    padding: 10px;
+    background-color: #b9aae5;
+    border-radius: 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border-width: 5px;
+    border: solid;
+    border-color: #c1cdcb;
+}
+
+
+
+
+.personal-container {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+
+    background-color: #fbfee3;
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top: solid 1px #b9aae5;
+    border-right: solid 1px #b9aae5;
+    border-left: solid 1px #b9aae5;
+
+}
+
+
+
+img {
+
+    width: 100%;
+    justify-items: center;
+}
+
+
+.divPersonal2 h1 {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+
+
+}
+
+
+.divPersonal1 {
+    flex: 30%;
+    width: 100%;
+    height: 100%;
+    background-color: #eaf7f5;
+    border-radius: 30px;
+
+
+
+}
+
+.divPersonal1 img {
+    border-radius: 30px;
+}
+
+.divPersonal2 {
+    display: flex;
+    flex: 73%;
+    flex-direction: column;
+    padding-left: 100px;
+    height: 100%;
+    background-color: #eaf7f5;
+    padding: 10px;
+    border-radius: 30px;
+
+}
+
+.divPersonal2 p {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.divPersonal2 h2 {
+
+    margin-bottom: 0;
+    padding-bottom: 0px;
+    margin: 20px;
+}
+
+.tecnologies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fbfee3;
+    padding-bottom: 20px;
+    border-left: solid 1px #b9aae5;
+    border-right: solid 1px #b9aae5;
+
+
+}
+
+.tecnologie-info {
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #eaf7f5;
+    border-radius: 30px;
+    border: #b9aae5 solid;
+}
+
+.tecnologie-img-container img {
+    width: 200px;
+
+    border: solid;
+    border-radius: 40px;
+    background-color: #caccbc;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px;
+    background-color: #fbfee3;
+    border: solid 1px #A0E7E5;
+
+
+}
+
+.gallery-container-son {
+    flex: 40%;
+    background-color: #b9aae5;
+    border-radius: 30px;
+    padding: 20px;
+    border: solid 1px #b9aae5;
+
+
+
+}
+
+.gallery-container-son img {
+    height: auto;
+    border-radius: 30px;
+
+}
+
+footer {
+    background-color: #B1D8B7;
+    padding: 20px;
+    text-align: center;
+    font-weight: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: solid 1px #b9aae5;
+    border-top: 0px;
+}
+
+
+
+
+@media only screen and (max-width: 400px) {
+    .tecnologies {
+        display: none;
+    }
+
+    .personal-container {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+
+        background-color: #fbfee3;
+
+    }
+
+    .header a {
+        font-size: 10px;
+    }
+
+    .divPersonal1 {
+        border-end-end-radius: 0px;
+        border-end-start-radius: 0px;
+    }
+
+    .divPersonal1 img {
+        border-end-end-radius: 0px;
+        border-end-start-radius: 0px;
+    }
+
+    .divPersonal2 {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+
+
+
+
+    .divPersonal2 p {
+        font-size: 12px;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+
+    .divPersonal2 h1 {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 0px;
+    }
+
+    .divPersonal2 h2 {
+        font-size: 15px;
+        margin-bottom: 0;
+        padding-bottom: 0px;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .personal-container {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+
+        background-color: #fbfee3;
+
+    }
+
+    .header a {
+        font-size: 17px;
+    }
+
+    .divPersonal1 {
+        border-end-end-radius: 0px;
+        border-end-start-radius: 0px;
+    }
+
+    .divPersonal1 img {
+        border-end-end-radius: 0px;
+        border-end-start-radius: 0px;
+    }
+
+    .divPersonal2 {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+}
